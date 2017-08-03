@@ -14,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5-pipe.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5-pipe.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/5-pipe.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-proc-streams.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/1-proc-streams.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -52,6 +62,7 @@
         <option value="$PROJECT_DIR$/src/3-readable-stream.js" />
         <option value="$PROJECT_DIR$/src/4-writable-stream.js" />
         <option value="$PROJECT_DIR$/src/5-pipe.js" />
+        <option value="$PROJECT_DIR$/src/1-proc-streams.js" />
       </list>
     </option>
   </component>
@@ -156,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501702698703</updated>
       <workItem from="1501702703111" duration="5597000" />
-      <workItem from="1501720373021" duration="3566000" />
+      <workItem from="1501720373021" duration="4056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9163000" />
+    <option name="totallyTimeSpent" value="9653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +387,15 @@
     <entry file="file://$PROJECT_DIR$/src/5-pipe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/1-proc-streams.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
