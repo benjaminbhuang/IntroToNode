@@ -4,7 +4,7 @@ var evenDoubler = function(v, callback) {
     var waitTime = Math.floor(Math.random()*(maxTime+1));
     if (v%2) {
         setTimeout(function() {
-            callback(new Error("Odd input"));
+            callback(new Error("Odd"));
         }, waitTime);
     } else {
         setTimeout(function() {
@@ -13,5 +13,14 @@ var evenDoubler = function(v, callback) {
     }
 };
 
+var evenDoublerSync = function (v) {
+    if(v%2){
+        throw(new Error("Odd"));
+    }else{
+        return (v*2);
+    }
+};
+
 module.exports.evenDoubler = evenDoubler;
+module.exports.evenDoublerSync = evenDoublerSync;
 module.exports.foo = 'bar';
